@@ -80,7 +80,7 @@ export default function SkillsExperience() {
       {/* SOCIÉTÉ GÉNÉRALE */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/sg.png" className="experience-img" />
+          <img src="/images/sg2.png" className="experience-img" />
 
           <div className="experience-text">
             <h1>Société Générale — Front Desk Assistant</h1>

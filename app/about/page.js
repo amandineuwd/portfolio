@@ -39,7 +39,7 @@ export default function AboutPage() {
         </li>
         <li>
           <a href="/documents/CV_EN.jpg" target="_blank" download>
-            My Resume (view or download)
+            My Resume (download)
           </a>
         </li>
       </ul>
