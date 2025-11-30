@@ -24,7 +24,7 @@ export default function ProjectsPage() {
           />
 
           <div className="experience-text">
-            <h1>TeruBot — Emotional Companion</h1>
+            <h1>TeruBot — Emotional companion</h1>
             <h3>September 2025 – Now (work in progress)</h3>
 
             <p>
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
           />
 
           <div className="experience-text">
-            <h1>Smart Socks — Connected Socks</h1>
+            <h1>Smart Socks — Connected sports socks</h1>
             <h3>September 2024 – April 2025</h3>
 
             <p>
@@ -85,7 +85,7 @@ export default function ProjectsPage() {
               acceleration, and posture.
               <br /><br />
               Once the hardware pipeline was stable, we developed the software system to collect, process, and 
-              visualize the data in real time through a clean web interface that I designed and built. The result 
+              visualize the data in real time through a web app that I designed and built. The result 
               is a unified wearable-tech ecosystem that merges textile experimentation, sensor integration, and 
               intuitive data visualization to give athletes actionable insights.
               <br /><br />

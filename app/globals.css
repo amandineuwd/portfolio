@@ -1,4 +1,17 @@
-/* HOMEPAGE CAROUSEL */
+/* HOMEPAGE */
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 60px;
+}
+
+.home-container img {
+  width: 350px;
+  border-radius: 12px;
+}
+
+/* HOMEPAGE carousel */
 .carousel {
   margin-top: 18px;
   width: 200%;
@@ -21,12 +34,13 @@ body {
   line-height: 1.5;
 }
 
-.navbar {
+/* HOMEPAGE nav bar menu */
+ .navbar {
   width: 100%;
   padding: 20px 40px;
   display: flex;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 20px;                /* un peu moins d’espace pour être compact */
   font-size: 16px;
 }
 
@@ -34,10 +48,27 @@ body {
   text-decoration: none;
   color: #2b2b2b;
   transition: 0.2s ease;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: 0 2px 4px rgba(0,0,0,0);
 }
 
+/* hover effect */
 .navbar a:hover {
-  opacity: 0.6;
+  border: 1px solid #000;
+  background: #ffeef7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  opacity: 1;
+}
+
+/* active / selected link */
+.navbar a.active {
+  border: 1px solid #000;
+  background: #ffeef7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  opacity: 1;
 }
 
 .carousel img {
@@ -51,39 +82,40 @@ html, body {
   overflow-x: hidden;
 }
 
-
-/* Homepage layout */
-.home-container {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  padding: 60px;
-}
-
-.home-container img {
-  width: 350px;
-  border-radius: 12px;
-}
-
-/* section contact */
+/* HOMEPAGE contact */
 .contact-section {
-  margin-top: 60px;
-  padding: 40px 60px;
+  margin-top: 50px;
+  padding: 15px 25px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffeef7;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .contact-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #2b2b2b;
 }
 
 .contact-item {
   display: flex;
+  justify-content: left;
   align-items: center;
-  gap: 10px;
-  font-size: 16px;
+  gap: 8px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.contact-item span {
+  font-weight: 500;
 }
 
 .contact-item a {
@@ -96,7 +128,7 @@ html, body {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   opacity: 0.7;
   transition: 0.2s;
 }
@@ -105,8 +137,10 @@ html, body {
   opacity: 1;
 }
 
+
 /* PROJECTS PAGE */
-/* SCROLL-SNAP */
+
+/* scroll-snap */
 .projects-wrapper {
   height: 100vh;
   overflow-y: scroll;
@@ -128,21 +162,22 @@ html, body {
   line-height: 1.6;
 }
 
+/* carousel des images des projets */
 .carousel-container {
   position: relative;
   width: 100%;
-  max-width: 450px; /* limite à la largeur de l'image de couverture */
+  max-width: 380px;
   margin: 0 auto;
 }
 
 .carousel-img {
-  width: 100%;        /* s'adapte */
-  max-width: 450px;   /* ne dépasse jamais l'image de couverture */
-  height: auto;       /* garde les proportions naturelles */
+  width: 100%;
+  max-width: 380px;
+  height: auto;
   object-fit: cover;
   border-radius: 12px;
 }
- 
+
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -168,10 +203,9 @@ html, body {
 .carousel-btn.right {
   right: 10px;
 }
+ 
 
-
-
-/* About page */
+/* ABOUT PAGE */
 .about-container {
   max-width: 700px;
   margin: 0 auto;
@@ -222,7 +256,7 @@ html, body {
   opacity: 0.6;
 }
 
-/* pumpkins */
+/* citrouilles */
 .pumpkins-container {
   position: absolute;
   top: 0;
@@ -240,21 +274,22 @@ html, body {
   opacity: 0.8;
 }
 
-/* Positions personnalisées */
+/* positions sur la page */
 .p1 { top: 27%; right: 5%; }
 .p3 { top: 8%;  left: 18%; }
 .p2 { top: 38%; right: 16%; }
 .p4 { top: 78%; left: 15%; }
 .p5 { top: 68%; right: 7%; }
 .p6 { top: 65%; left: 8%; } 
-/* Bottom scroll pumpkins */
-.p7  { top: 135%; right: 15%;  }
+.p7  { top: 135%; right: 15%;  } /* en dessous du scroll */
 .p8  { top: 118%; left: 3%;   }
 .p9  { top: 155%; left: 18%;  }
 .p10 { top: 145%; right: 6%; }
 
-/* SKILLS & EXPERIENCE PAGE*/
-/* SCROLL FORCÉ SECTION PAR SECTION */
+
+/* SKILLS & EXPERIENCE PAGE */
+
+/* scroll forcé par expérience */
 .experience-wrapper {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -279,9 +314,9 @@ html, body {
 }
 
 .experience-img {
-  width: 340px;          /* taille uniforme */
-  height: 340px;         /* carré pour harmoniser */
-  object-fit: cover;     /* crop propre */
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
   border-radius: 12px;
 }
 
@@ -312,10 +347,10 @@ html, body {
 
 .skills-tags span {
   border: 1px solid #000;
-  background: #ffeef7;        /* fond blanc */
+  background: #ffeef7;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 14px;
   opacity: 0.85;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* optionnel : léger relief */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
