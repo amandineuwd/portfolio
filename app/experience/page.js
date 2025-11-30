@@ -43,6 +43,7 @@ export default function SkillsExperience() {
         </div>
       </section>
 
+
       {/* COLORES */}
       <section className="experience-section">
         <div className="experience-content">

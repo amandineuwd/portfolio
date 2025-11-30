@@ -1,40 +1,42 @@
-import Link from "next/link";
+"use client";
 
 export default function ProjectsPage() {
+  const projects = [
+    {
+      title: "Terubot",
+      image: "/images/terubotcouv.png",
+      description:
+        "A social robot designed to improve communication, empathy and cognitive engagement.",
+    },
+    {
+      title: "Smart Socks",
+      image: "/images/ss2.jpg",
+      description:
+        "Wearable socks integrating biometric sensors, designed to track physiological signals.",
+    },
+    {
+      title: "PianoPatch",
+      image: "/images/piano.jpeg",
+      description:
+        "An interactive piano patch project exploring sound, playfulness and creative interaction.",
+    },
+    {
+      title: "Three.js Experiment",
+      image: "/images/labubu.jpeg",
+      description:
+        "A 3D interactive experiment built with Three.js, combining design and web technologies.",
+    },
+  ];
+
   return (
-    <div className="projects-container">
-      <h1 style={{ textAlign: "center", marginBottom: "60px" }}>Projects</h1>
-
-      <div className="project-list">
-
-        {/* Terubot */}
-        <Link href="/projects/terubot" className="project-wrapper">
-          <div className="project-item-centered">
-            <h2>Terubot</h2>
-            <img src="/images/terubotcouv.png" alt="Terubot" />
-            <p>An interactive educational experience using robotics and playful learning.</p>
-          </div>
-        </Link>
-
-        {/* Smart Socks */}
-        <Link href="/projects/smart-socks" className="project-wrapper">
-          <div className="project-item-centered">
-            <h2>Smart Socks</h2>
-            <img src="/images/ss2.jpg" alt="Smart Socks" />
-            <p>A wearable device that captures biosignals through textile sensors.</p>
-          </div>
-        </Link>
-
-        {/* PianoPatch */}
-        <Link href="/projects/pianopatch" className="project-wrapper">
-          <div className="project-item-centered">
-            <h2>PianoPatch</h2>
-            <img src="/images/piano.jpeg" alt="PianoPatch" />
-            <p>A soft, portable music interface designed for playful learning.</p>
-          </div>
-        </Link>
-
-      </div>
+    <div className="projects-wrapper">
+      {projects.map((p, index) => (
+        <section key={index} className="project-section">
+          <h2 className="project-title">{p.title}</h2>
+          <img src={p.image} alt={p.title} className="project-image" />
+          <p className="project-desc">{p.description}</p>
+        </section>
+      ))}
     </div>
   );
 }

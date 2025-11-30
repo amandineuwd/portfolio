@@ -14,7 +14,7 @@ export default function HomePage() {
     "/images/lucas.jpg",
     "/images/piano.jpeg",
     "/images/pianoemporte.jpg",
-    "/images/seniors.jpeg",
+    "/images/sensors.jpeg",
     "/images/ss2.jpg",
     "/images/terubotcouv.png",
   ];
