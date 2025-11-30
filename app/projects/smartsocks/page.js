@@ -1,3 +1,9 @@
-export default function SmartSocksPage() {
-  return <div style={{ padding: "60px" }}></div>;
-}
+<ProjectCarousel
+  images={[
+    "/images/ss.jpg",
+    "/images/sensors.jpeg",
+    "/images/ss1.jpeg",
+    "/images/webapp.jpg",
+    "/images/recap.png",
+  ]}
+/>

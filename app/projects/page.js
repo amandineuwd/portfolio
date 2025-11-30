@@ -1,13 +1,27 @@
 "use client";
 
+import ProjectCarousel from "../../components/ProjectCarousel";
+
 export default function ProjectsPage() {
   return (
     <div className="experience-wrapper">
 
-      {/* TERUBOT */}
+      {/* ------------ TERUBOT ------------ */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/terubotcouv.png" className="experience-img" />
+
+          <ProjectCarousel
+            images={[
+              "/images/terubotcouv.png",
+              "/images/app1.png",
+              "/images/userflow.png",
+              "/images/palette.png",
+              "/images/app2.png",
+              "/images/app3.png",
+              "/images/app4.png",
+              "/images/app5.png",
+            ]}
+          />
 
           <div className="experience-text">
             <h1>TeruBot — Emotional Companion</h1>
@@ -41,13 +55,22 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* SMART SOCKS */}
+      {/* ------------ SMART SOCKS ------------ */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/ss.jpg" className="experience-img" />
+
+          <ProjectCarousel
+            images={[
+              "/images/ss.jpg",
+              "/images/sensors.jpeg",
+              "/images/ss1.jpeg",
+              "/images/webapp.jpg",
+              "/images/recap.png",
+            ]}
+          />
 
           <div className="experience-text">
-            <h1>Smart Socks — Connected Sports Socks</h1>
+            <h1>Smart Socks — Connected Socks</h1>
             <h3>September 2024 – April 2025</h3>
 
             <p>
@@ -84,13 +107,22 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* PIANO PATCH */}
+      {/* ------------ PIANO PATCH ------------ */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/piano.jpeg" className="experience-img" />
+
+          <ProjectCarousel
+            images={[
+              "/images/piano.jpeg",
+              "/images/pianoemporte.jpg",
+              "/images/cuir2.jpg",
+              "/images/lucas.jpg",
+              "/images/team.jpg",
+            ]}
+          />
 
           <div className="experience-text">
-            <h1>PianoPatch — Colorful leather piano patch</h1>
+            <h1>PianoPatch — Colorful learning tool</h1>
             <h3>April – November 2025</h3>
 
             <p>
@@ -101,12 +133,7 @@ export default function ProjectsPage() {
               <br /><br />
               Developing PianoPatch gave me a hands-on view of how a product actually comes to life—from early 
               concept design to prototyping, supplier sourcing, pricing, and building a campaign that clearly 
-              communicates the value of the idea. Through multiple prototypes and material tests, I learned how 
-              to transform a simple concept into a tangible, functional product, while gaining experience in 
-              sustainable design and small-scale manufacturing.
-              <br /><br />
-              In many ways, PianoPatch became an introduction to product development and creative entrepreneurship, 
-              blending craftsmanship, storytelling, and eco-conscious thinking.
+              communicates the value of the idea.
               <br /><br />
               <a
                 href="https://www.kickstarter.com/projects/275565469/568928432?ref=akzxia&token=161a9667"
