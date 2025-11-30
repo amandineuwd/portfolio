@@ -8,14 +8,12 @@ export default function HomePage() {
     "/images/app2.png",
     "/images/cuir1.jpg",
     "/images/cuir2.jpg",
-    "/images/fab.jpg",
-    "/images/fab2.jpg",
-    "/images/hardware.jpeg",
+    "/images/eyes.jpeg",
     "/images/lucas.jpg",
     "/images/piano.jpeg",
     "/images/pianoemporte.jpg",
     "/images/sensors.jpeg",
-    "/images/ss2.jpg",
+    "/images/ss.jpg",
     "/images/terubotcouv.png",
   ];
 
