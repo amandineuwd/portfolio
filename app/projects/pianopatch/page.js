@@ -1,3 +1,4 @@
+import ProjectCarousel from "../../../components/ProjectCarousel";
 <ProjectCarousel
   images={[
     "/images/piano.jpeg",
