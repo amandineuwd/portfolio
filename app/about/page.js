@@ -38,7 +38,7 @@ export default function AboutPage() {
           <a href="https://boxd.it/9s17b" target="_blank">My Letterboxd</a>
         </li>
         <li>
-          <a href="/documents/CV_EN.jpg" target="_blank" download>
+          <a href="./documents/CV_EN.jpg" target="_blank" download>
             My Resume (download)
           </a>
         </li>
