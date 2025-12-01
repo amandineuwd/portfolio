@@ -13,7 +13,7 @@ export default function ProjectsPage() {
           <ProjectCarousel
             images={[
               "/images/terubotcouv.png",
-              "/portfolio/public/images/app1.png",
+              "./images/app1.png",
               "/images/userflow.png",
               "/images/palette.png",
               "/images/app2.png",
