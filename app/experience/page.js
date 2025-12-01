@@ -7,7 +7,7 @@ export default function SkillsExperience() {
       {/* SONEPAR */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/sonepar.png" className="experience-img" />
+          <img src="./images/sonepar.png" className="experience-img" />
 
           <div className="experience-text">
             <h1>Sonepar — Product Designer</h1>
@@ -47,7 +47,7 @@ export default function SkillsExperience() {
       {/* COLORES */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/colores.png" className="experience-img" />
+          <img src="./images/colores.png" className="experience-img" />
 
           <div className="experience-text">
             <h1>Colores — Sales Assistant</h1>
@@ -81,7 +81,7 @@ export default function SkillsExperience() {
       {/* SOCIÉTÉ GÉNÉRALE */}
       <section className="experience-section">
         <div className="experience-content">
-          <img src="/images/sg2.png" className="experience-img" />
+          <img src="./images/sg2.png" className="experience-img" />
 
           <div className="experience-text">
             <h1>Société Générale — Front Desk Assistant</h1>

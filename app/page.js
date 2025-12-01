@@ -28,7 +28,7 @@ export default function HomePage() {
     <div>
       {/* Section Présentation */}
       <section className="home-container">
-        <img src="/images/amandine2.jpg" alt="Amandine" />
+        <img src="./images/amandine2.jpg" alt="Amandine" />
 
         <div>
           <h1>

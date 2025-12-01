@@ -61,11 +61,11 @@ export default function ProjectsPage() {
 
           <ProjectCarousel
             images={[
-              "/images/ss.jpg",
-              "/images/sensors.jpeg",
-              "/images/ss1.jpeg",
-              "/images/webapp.jpg",
-              "/images/recap.png",
+              "./images/ss.jpg",
+              "./images/sensors.jpeg",
+              "./images/ss1.jpeg",
+              "./images/webapp.jpg",
+              "./images/recap.png",
             ]}
           />
 
@@ -113,11 +113,11 @@ export default function ProjectsPage() {
 
           <ProjectCarousel
             images={[
-              "/images/piano.jpeg",
-              "/images/pianoemporte.jpg",
-              "/images/cuir2.jpg",
-              "/images/lucas.jpg",
-              "/images/team.jpg",
+              "./images/piano.jpeg",
+              "./images/pianoemporte.jpg",
+              "./images/cuir2.jpg",
+              "./images/lucas.jpg",
+              "./images/team.jpg",
             ]}
           />
 

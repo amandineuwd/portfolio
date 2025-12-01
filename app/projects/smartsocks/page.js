@@ -11,11 +11,11 @@ export default function Page() {
 
           <ProjectCarousel
             images={[
-              "/images/ss.jpg",
-              "/images/sensors.jpeg",
-              "/images/ss1.jpeg",
-              "/images/webapp.jpg",
-              "/images/recap.png",
+              "./images/ss.jpg",
+              "./images/sensors.jpeg",
+              "./images/ss1.jpeg",
+              "./images/webapp.jpg",
+              "./images/recap.png",
             ]}
           />
 

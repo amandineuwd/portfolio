@@ -45,16 +45,16 @@ export default function AboutPage() {
       </ul>
       {/* Pumpkin Decorations */}
     <div className="pumpkins-container">
-    <img src="/images/image.png" className="pumpkin p1" />
-    <img src="/images/image2.png" className="pumpkin p2" />
-    <img src="/images/image3.png" className="pumpkin p3" />
-    <img src="/images/image4.png" className="pumpkin p4" />
-    <img src="/images/image5.png" className="pumpkin p5" />
-    <img src="/images/image6.png" className="pumpkin p6" />
-    <img src="/images/image.png" className="pumpkin p7" />
-    <img src="/images/image2.png" className="pumpkin p8" />
-    <img src="/images/image3.png" className="pumpkin p9" />
-    <img src="/images/image4.png" className="pumpkin p10" />
+    <img src="./images/image.png" className="pumpkin p1" />
+    <img src="./images/image2.png" className="pumpkin p2" />
+    <img src="./images/image3.png" className="pumpkin p3" />
+    <img src="./images/image4.png" className="pumpkin p4" />
+    <img src="./images/image5.png" className="pumpkin p5" />
+    <img src="./images/image6.png" className="pumpkin p6" />
+    <img src="./images/image.png" className="pumpkin p7" />
+    <img src="./images/image2.png" className="pumpkin p8" />
+    <img src="./images/image3.png" className="pumpkin p9" />
+    <img src="./images/image4.png" className="pumpkin p10" />
     </div>
 
     </div>
