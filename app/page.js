@@ -5,16 +5,16 @@ export default function HomePage() {
   // IMAGES DU CARROUSEL
   const images = [
     "./images/app1.png",
-    "/images/app2.png",
-    "/images/cuir1.jpg",
-    "/images/cuir2.jpg",
-    "/images/eyes.jpeg",
-    "/images/lucas.jpg",
-    "/images/piano.jpeg",
-    "/images/pianoemporte.jpg",
-    "/images/sensors.jpeg",
-    "/images/ss.jpg",
-    "/images/terubotcouv.png",
+    "./images/app2.png",
+    "./images/cuir1.jpg",
+    "./images/cuir2.jpg",
+    "./images/eyes.jpeg",
+    "./images/lucas.jpg",
+    "./images/piano.jpeg",
+    "./images/pianoemporte.jpg",
+    "./images/sensors.jpeg",
+    "./images/ss.jpg",
+    "./images/terubotcouv.png",
   ];
 
   const [shuffled, setShuffled] = useState([]);
