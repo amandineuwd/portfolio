@@ -13,7 +13,7 @@ export default function HomePage() {
     "./images/piano.jpeg",
     "./images/pianoemporte.jpg",
     "./images/sensors.jpeg",
-    "./images/ss.jpg",
+    "./images/ss.JPG",
     "./images/terubotcouv.png",
   ];
 

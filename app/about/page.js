@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="about-container">
       <h1>About me</h1>
 
-      <img src="/images/amandine3.jpeg" alt="Amandine" className="about-photo" />
+      <img src="./images/amandine3.jpeg" alt="Amandine" className="about-photo" />
 
       <p className="about-text">
         Hi! I’m Amandine — an engineering student from ESILV, specializing in Creative
