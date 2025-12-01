@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function HomePage() {
   // IMAGES DU CARROUSEL
   const images = [
-    "/public/images/app1.png/app1.png",
+    "/portfolio/public/images/app1.png/app1.png",
     "/images/app2.png",
     "/images/cuir1.jpg",
     "/images/cuir2.jpg",
